@@ -1,0 +1,24 @@
+<div class="contenedor">
+  <mat-card class="color mt-3 mb-3">
+    <mat-card-header class="text-center">
+      <div class="Titulo mb-1 "
+      >Para crear tu cuenta necesitamos validar tus datos</div
+    >
+    </mat-card-header>
+
+    <mat-card-content class="example-full-width">
+      <div [formGroup]="toppings" >
+        <mat-checkbox class="check"formControlName="check" >Acepto los Términos y condiciones y autorizo el uso de mis datos de acuerdo a la Declaración de Privacidad</mat-checkbox>
+
+      </div>
+      <div class="p-3">
+        <button mat-raised-button [disabled]="disabledButton" (click)="siguiente()"  color="accent"  class="example-full-width">
+          Continuar
+        </button>
+      </div>
+
+    </mat-card-content>
+
+
+  </mat-card>
+</div>
