@@ -79,16 +79,7 @@ Backend:
  - Docker
  - Nginx
 
-------------
-### Contributors 👥
 
-FrontEnd:
-- Facundo Ibars
-- Burella Lucio
-- Ramiro Cosa
-
-Backend:
-- Diego Haczek
 
 
 
